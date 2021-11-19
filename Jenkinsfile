@@ -19,3 +19,4 @@ node {
      stage('copy artifact'){
          sh 'sudo cp -rf /var/lib/jenkins/workspace/pipelinejob-1/target/recharge.war /opt/tomcat9/webapps/'
      }
+}
